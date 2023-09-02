@@ -10,12 +10,12 @@ public class Asignatura {
 
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
-        this(0);
+       
     }
-
-    public Asignatura(int codigoInterno,Tipo tipo) {
-        this("Sin nombre", codigoInterno, 0,tipo);
-    }
+// Esta no me sirve para lo que debe imprimir
+//    public Asignatura(int codigoInterno,Tipo tipo) {
+//        this("Sin nombre", codigoInterno, 0,tipo);
+//    }
 
     public Asignatura(int codigoExterno,Tipo tipo) {
         this("Sin nombre", 0, codigoExterno,tipo);
@@ -38,10 +38,10 @@ public class Asignatura {
         this.nombre = nombre;
         this.tipo = tipo;
     }
-
-    public void cambiarDatos(int codigoInterno) {
-        this.codigoInterno = codigoInterno;
-    }
+//		No me sirve para la ejecución del código
+//    public void cambiarDatos(int codigoInterno) {
+//        this.codigoInterno = codigoInterno;
+//    }
 
     public void cambiarDatos(int codigoExterno) {
         this.codigoExterno = codigoExterno;
